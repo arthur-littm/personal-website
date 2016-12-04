@@ -2,6 +2,7 @@
 	<h1>About me</h1>
 	<div class="row">
 		<div class="hidden-xs col-sm-4 aboutme-list">
+			<%= image_tag "avatar.jpg", class: "avatar-large aboutme-avatar" %>
 			<ul>
 				<li><i class="fa fa-code" aria-hidden="true"></i> Fullstack developer</li>
 				<li><i class="fa fa-briefcase" aria-hidden="true"></i> Business developer</li>
@@ -16,46 +17,94 @@
 		<div class="col-xs-12 col-sm-8 aboutme-description">
 			<div class="aboutme-titles">
 				<h3>Education</h3>
-				<ul>
-					<li>
-						<h5>Le Wagon - London</h5>
-						<p>Web development bootcamp covering back-end to frond-end development (Ruby on Rails, JavaScript) &amp; database handling (SQL, Activerecords). “leading coding bootcamp in Europe” (Techcrunch 2016)</p>
-					</li>
-					<li>
-						<h5>ESSEC - Paris</h5>
+
+				<div class="product">
+					<%= image_tag "lewagon.png", class: "product-image hidden-xs" %>
+					<div class='product-body'>
+						<h3>Le Wagon</h3>
+						<p>Web development bootcamp covering back-end to frond-end development (Ruby on Rails, JavaScript) &amp; database handling (SQL, Activerecords). “leading coding bootcamp in Europe” (Techcrunch 2016).</p>
+					</div>
+					<ul class="list-inline product-controls hidden-sm hidden-xs">
+						<li><a href="https://www.lewagon.com/demoday/41"><i class="fa fa-share"></i></a></li>
+					</ul>
+				</div>
+
+				<div class="product">
+					<%= image_tag "essec.png", class: "product-image hidden-xs" %>
+					<div class='product-body'>
+						<h3>ESSEC Business School</h3>
 						<p>BBA program of the ESSEC business school in Cergy, France, ranked best international bachelor program in 2016 (challenges.fr). My main topics were Entrepreneurship, Management, Marketing &amp; Languages.</p>
-					</li>
-					<li>
-						<h5>SHU - Sheffield</h5>
+					</div>
+					<ul class="list-inline product-controls hidden-sm hidden-xs">
+						<li><a href="http://www.essec.edu/en/program/global-bba/global-bba-international/"><i class="fa fa-share"></i></a></li>
+					</ul>
+				</div>
+
+				<div class="product">
+					<%= image_tag "sheffield.png", class: "product-image hidden-xs" %>
+					<div class='product-body'>
+						<h3>Sheffield Hallam University</h3>
 						<p>Erasmus exchange semester at the Sheffield Hallam University Business School, in England (UK).</p>
-					</li>
-					<li>
-						<h5>Stirling University</h5>
+					</div>
+					<ul class="list-inline product-controls hidden-sm hidden-xs">
+						<li><a href="https://www.shu.ac.uk/"><i class="fa fa-share"></i></a></li>
+					</ul>
+				</div>
+
+				<div class="product">
+					<%= image_tag "stirling.png", class: "product-image hidden-xs" %>
+					<div class='product-body'>
+						<h3>University of Stirling</h3>
 						<p>Erasmus exchange semester at the University of Stirling, in Scotland (UK).</p>
-					</li>
-					<li>
-						<h5>European School - Varese</h5>
+					</div>
+					<ul class="list-inline product-controls hidden-sm hidden-xs">
+						<li><a href="https://www.stir.ac.uk/"><i class="fa fa-share"></i></a></li>
+					</ul>
+				</div>
+
+				<div class="product">
+					<%= image_tag "scuola.png", class: "product-image hidden-xs" %>
+					<div class='product-body'>
+						<h3>European School</h3>
 						<p>European Baccalaureate from the European School of Varese (Italy).</p>
-					</li>
-				</ul>
-				
+					</div>
+					<ul class="list-inline product-controls hidden-sm hidden-xs">
+						<li><a href="http://www.eurscva.eu/scuolaeuropea-eng/"><i class="fa fa-share"></i></a></li>
+					</ul>
+				</div>
 			</div>
 			<div class="aboutme-titles">
 				<h3>Professional</h3>
-				<ul>
-					<li>
-						<h5>LeKiosk - Paris</h5>
+				<div class="product">
+					<%= image_tag "lekiosk.png", class: "product-image hidden-xs" %>
+					<div class='product-body'>
+						<h3>LeKiosk</h3>
 						<p>Internship of 6 months as a business developer at LeKiosk, a digital press start-up. In charge of statistics, iOS In-App submissions, canvassing new magazines, customer service &amp; internal issues.</p>
-					</li>
-					<li>
-						<h5>Duc Son Orphanage - Hue</h5>
+					</div>
+					<ul class="list-inline product-controls hidden-sm hidden-xs">
+						<li><a href=""><i class="fa fa-share"></i></a></li>
+					</ul>
+				</div>
+				<div class="product">
+				<%= image_tag "ducson.png", class: "product-image hidden-xs" %>
+					<div class='product-body'>
+						<h3>Duc Son Orphanage</h3>
 						<p>One month of volunteer work in the orphanage of Duc Son, in Hué, Vietnam. Helping in the daily management of the orphanage that holds more than 180 children.</p>
-					</li>
-					<li>
-						<h5>KIABI - Rescaldina</h5>
+					</div>
+					<ul class="list-inline product-controls hidden-sm hidden-xs">
+						<li><a href=""><i class="fa fa-share"></i></a></li>
+					</ul>
+				</div>
+				<div class="product">
+					<%= image_tag "kiabi.png", class: "product-image hidden-xs" %>
+					<div class='product-body'>
+						<h3>KIABI</h3>
 						<p>Internship of 3 months in sales management at a KIABI clothes shop in the North of Italy, where I had to assist in the management and the everyday tasks of the store like stock management and sales monitoring.</p>
-					</li>
-				</ul>
+					</div>
+					<ul class="list-inline product-controls hidden-sm hidden-xs">
+						<li><a href=""><i class="fa fa-share"></i></a></li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</div>
