@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Arthur Littmann</title>
-    <%= csrf_meta_tags %>
-    <%= action_cable_meta_tag %>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Arthur Littmann</title>
+  <%= csrf_meta_tags %>
+  <%= action_cable_meta_tag %>
   <meta name="description" content="Get personalized travel advice from your friends!" />
   <link rel="icon" href="<%= image_path("favicon.png") %>">
-    <%= stylesheet_link_tag    'application', media: 'all' %>
-  </head>
-  <body style="background-color: whitesmoke;">
-    <%= render 'shared/navbar' %>
-    <%= yield %>
-    <%= render 'shared/footer' %>
-    <%= javascript_include_tag 'application' %>
-  </body>
+  <%= stylesheet_link_tag    'application', media: 'all' %>
+</head>
+<body style="background-color: whitesmoke;">
+  <%= render 'shared/navbar' %>
+  <%= yield %>
+  <%= render 'shared/footer' %>
+  <%= javascript_include_tag 'application' %>
+  <%= yield(:after_js) %>
+</body>
 </html>
