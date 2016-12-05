@@ -63,26 +63,17 @@
   .card-info {
     position: absolute;
     font-weight: 100;
-    top: 70px;
+    font-size: 14px;
+    top: -30px;
     left: 0;
     right: 0;
-    text-align: center;
-    padding: 5px;
+    text-align: left;
+    padding: 10px;
     opacity: 0;
-    transition: ease-in-out, opacity .3s ease-in-out;
-  }
-  .card-destroy-button {
-    position: absolute;
-    bottom: 5px;
-    left: 10px;
-    opacity: 0;
-    transition: ease-in-out, opacity .3s ease-in-out;
-    z-index: 3;
-    i {
-      color: gray;
-    }
-    i:hover {
-      color: red;
+    transition: ease-in-out, opacity .5s ease-in-out;
+    transition: ease-in-out, top .3s ease-in-out;
+    span {
+      border-bottom: 0.5px solid white;
     }
   }
   .card-avatar {
@@ -105,12 +96,10 @@
   box-shadow: 1px 1px 6px 0px #96A6C7;
   .card-info {
     opacity: 1;
+    top:0;
   }
   .card-image {
-    opacity: 0.5;
-  }
-  .card-destroy-button {
-    opacity: 0.8;
+    opacity: 0.4;
   }
 }
 
@@ -122,24 +111,4 @@
   width: 100%;
   z-index:2;
   opacity: 0;
-}
-.card-new {
-  background-color: white;
-  border: 0.5 solid #D3D8D8;
-  color: #2F323A;
-  font-weight: 100;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  p {
-    font-size: 30px;
-  }
-  i {
-    font-size: 40px;
-  }
-}
-
-.card-new:hover {
-  color: #00C3C7;
 }
