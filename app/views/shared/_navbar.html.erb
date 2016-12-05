@@ -8,14 +8,15 @@
   <div class="navbar-wagon-right hidden-xs hidden-sm">
 
     <!-- Different navigation if login or not -->
-    
+
 
     <!-- Login text link -->
-    <%= link_to "Portfolio", "#portfolio", class: "navbar-wagon-item navbar-wagon-link" %>
+    <%= link_to "Portfolio", (root_path+"#portfolio"), class: "navbar-wagon-item navbar-wagon-link" %>
 
     <!-- Login text link -->
-    <%= link_to "About me", "#aboutme", class: "navbar-wagon-item navbar-wagon-link" %>
-    <%= link_to "Get in touch", root_path, class: "navbar-wagon-item navbar-wagon-link" %>
+    <%= link_to "About me", (root_path+"#aboutme"), class: "navbar-wagon-item navbar-wagon-link" %>
+    <%= link_to "Skills", (root_path+"#skills"), class: "navbar-wagon-item navbar-wagon-link" %>
+    <%= link_to "Get in touch", getintouch_path, class: "navbar-wagon-item navbar-wagon-link" %>
 
     <!-- Button (call-to-action) -->
   </div>
@@ -26,13 +27,16 @@
       <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
       <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
       <li>
-          <%= link_to "Portfolio", "#portfolio" %>
+          <%= link_to "Portfolio", (root_path+"#portfolio") %>
       </li>
         <li>
-          <%= link_to "About me", "#aboutme" %>
+          <%= link_to "About me", (root_path+"#aboutme") %>
         </li>
         <li>
-          <%= link_to "Get in touch", root_path %>
+          <%= link_to "Skills", (root_path+"#skills") %>
+        </li>
+        <li>
+          <%= link_to "Get in touch", getintouch_path %>
         </li>
       </ul>
     </div>
