@@ -4,3 +4,14 @@
 .mailer-input {
   margin: 20px auto;
 }
+
+.mailer-button {
+  background-color: #00C3C7 !important;
+  border: 0.5px solid #15A6AA !important;
+  width: 25%;
+}
+
+.mailer-button:hover {
+  background-color: #15A6AA !important;
+  border: 0.5px solid #00C3C7 !important;
+}
