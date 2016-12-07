@@ -6,13 +6,89 @@
   margin: 20px auto;
 }
 
-.mailer-button {
-  background-color: #00C3C7 !important;
-  border: 0.5px solid #15A6AA !important;
-  width: 25%;
+.getintouch-quote {
+  border-bottom: 0.5px solid rgba(128, 128, 128, 0.19);
+  h3 {
+   text-align: center;
+   font-style: italic;
+   font-size: 18px;
+   color: gray;
+   i {
+    margin: 0 10px;
+  }
+}
+margin-bottom: 20px;
 }
 
-.mailer-button:hover {
-  background-color: #15A6AA !important;
-  border: 0.5px solid #00C3C7 !important;
+.mailer-button {
+  width: 40%;
+  border: none;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 10px 0px;
+  text-align: center;
+  border-radius: 2px;
+  cursor: pointer;
+  background: #EE6352;
+  color: whitesmoke;
+  transition-duration: 0.5s;
+  i {
+    font-size: 25px;
+    margin-left: 10px;
+  }
+  &:hover {
+    background: whitesmoke;
+    color: #EE6352;
+  }
 }
+
+.getintouch-container {
+  width: 80%;
+  background-color: white;
+  border-radius: 5px;
+  padding: 25px;
+  margin: 10% auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.getintouch-avatar {
+  margin: 0 auto;
+  box-shadow: 2px 2px 3px rgba(0,0,0,0.3);
+}
+
+.share-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.share-link {
+  width: 40%;
+  font-size: 30px;
+  padding: 2px 0;
+  text-align: center;
+  border-radius: 2px;
+  cursor: pointer;
+  margin: 0px 10px;
+}
+.bg-linkedin {
+  background: #0085B6;
+  color: white;
+  transition-duration: 0.5s;
+  &:hover {
+    background: white;
+    color: #0085B6;
+  }
+}
+.bg-github {
+  background: #2F3239;
+  color: white;
+  transition-duration: 0.8s;
+  &:hover {
+    background: white;
+    color: #2F3239;
+  }
+}
+

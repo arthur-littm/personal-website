@@ -1,15 +1,31 @@
 <div class="container">
   <div class="row">
-    <div class="col-xs-12 col-sm-8">
+    <div class="col-xs-12 col-sm-6">
       <h1>Get in touch</h1>
       <form method="POST" action="http://formspree.io/arthur.littmann@gmail.com">
         <div class="form-group mailer-form">
           <input type="email" name="email" placeholder="Your email" class="form-control mailer-input" required>
           <input type="subject" name="subject" placeholder="Subject" class="form-control mailer-input">
           <textarea rows="5" name="message" placeholder="Your message" class="form-control mailer-input" required></textarea>
-          <button type="submit" class="btn btn-primary mailer-button">Submit</button>
+          <button type="submit" class="mailer-button">Send <i class="fa fa-paper-plane" aria-hidden="true"></i></button>
         </div>
       </form>
+    </div>
+    <div class="col-xs-12 col-sm-6">
+      <div class="getintouch-container">
+        <%= image_tag "avatar.jpg", class: "avatar-large getintouch-avatar" %>
+        <div class="getintouch-quote">
+        <h3>Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.</h3>
+        </div>
+        <div class="share-links">
+          <a href="#" class="share-link bg-github">
+            <i class="fa fa-github"></i>
+          </a>
+          <a href="#" class="share-link bg-linkedin">
+            <i class="fa fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
     </div>
   </div>
 </div>
