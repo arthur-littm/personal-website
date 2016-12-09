@@ -9,7 +9,8 @@
   align-items: center;
   padding: 20px;
   border-radius: 3px;
-  transition: all 0.15s ease;
+  width: 70%;
+  transition: all 0.5s ease;
 }
 
 /* Body design */
@@ -26,7 +27,8 @@
   span {
     font-weight: 100;
     font-size: 18px;
-    color: gray;
+    color: whitesmoke;
+    transition: all 0.6s ease;
   }
 }
 .product-skills-image {
@@ -37,4 +39,5 @@
 .product-skills:hover {
   background: #00C3C7;
   color: white;
+  width: 100%;
 }
