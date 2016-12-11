@@ -12,10 +12,28 @@
     margin: 10px 20px;
     color: #E8EEF2;
   }
-  i:hover {
+  .fa-envelope:hover {
     color: #5D737E;
     transition-duration: 1s;
   }
+  .bg-facebook:hover {
+    color: #4067A9;
+    transition-duration: 1s;
+  }
+   .bg-youtube:hover {
+    color: #FB1C25;
+    transition-duration: 1s;
+  }
+   .bg-github-footer:hover {
+    color: #657C8A;
+    transition-duration: 1s;
+  }
+   .bg-linkedin-footer:hover {
+    color: #1085BA;
+    transition-duration: 1s;
+  }
+
+
   li {
     margin: 10px auto;
   }

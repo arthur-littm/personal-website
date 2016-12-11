@@ -7,7 +7,7 @@
   margin:20px;
   color: #2F323A;
   height: 315px;
-  width: 350px;
+  width: 400px;
   border-radius: 4px;
   position: relative;
   padding: 0;
@@ -31,22 +31,18 @@
     margin: 10px auto;
     position: absolute;
     left: 10px;
-    bottom: 15px;
+    bottom: 12px;
     text-align: center;
-    font-size: 20px;
-    font-weight: 100;
     img {
-      width: 120px;
+      width: 150px;
     }
   }
   .card-title-smaller {
     margin: 10px auto;
     position: absolute;
     left: 10px;
-    bottom: 15px;
+    bottom: 12px;
     text-align: center;
-    font-size: 20px;
-    font-weight: 100;
     img {
       width: 100px;
     }
@@ -63,22 +59,12 @@
     font-size: 16px;
     text-align: left;
     padding: 10px;
-    opacity: 0;
-    transition: ease-in-out, opacity .4s ease-in-out;
+    position: absolute;
+    top: 200px;
+    transition: ease-in-out, top .5s ease-in-out;
     p {
-      position: absolute;
-      top: -30px;
-      transition: ease-in-out, top .3s ease-in-out;
-    }
-    ul {
-      position: absolute;
-      top: 200px;
-      transition: ease-in-out, top .3s ease-in-out;
-      font-weight: 300;
-      text-align: center;
-    }
-    img {
-      width: 35px;
+      opacity: 0;
+      transition: ease-in-out, opacity .5s;
     }
   }
   .card-avatar {
@@ -93,23 +79,23 @@
     top: 0;
     width: 100%;
     height: 240px;
-    transition: ease-in-out, opacity .5s ease-in-out;
+    transition: ease-in-out, height .5s ease-in-out;
   }
 }
 
 .card:hover {
   box-shadow: 1px 1px 6px 0px #96A6C7;
   .card-info {
-    opacity: 1;
+    top: 10px;
     p {
-      top: 10px;
-    }
-    ul {
-      top: 100px;
+      opacity: 1;
     }
   }
   .card-image {
-    opacity: 0.3;
+    height: 0px;
+  }
+  .card-title {
+
   }
 }
 
