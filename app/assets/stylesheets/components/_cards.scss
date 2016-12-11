@@ -60,11 +60,11 @@
     text-align: left;
     padding: 10px;
     position: absolute;
-    top: 200px;
+    top: 107px;
     transition: ease-in-out, top .5s ease-in-out;
     p {
       opacity: 0;
-      transition: ease-in-out, opacity .5s;
+      transition: opacity .3s;
     }
   }
   .card-avatar {
@@ -82,13 +82,13 @@
     transition: ease-in-out, height .5s ease-in-out;
   }
 }
-
 .card:hover {
   box-shadow: 1px 1px 6px 0px #96A6C7;
   .card-info {
     top: 10px;
     p {
       opacity: 1;
+      transition: opacity 1s;
     }
   }
   .card-image {
