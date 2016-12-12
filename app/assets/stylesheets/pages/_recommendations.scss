@@ -17,10 +17,12 @@
   min-height: 220px;
   background-color: white;
   border-radius: 5px;
-  margin: 10px;
+  margin: 10px 10px 30px 10px;
   padding: 15px;
   display: flex;
   flex-direction: column;
+  box-shadow: 2px 2px 3px rgba(6, 149, 150, 0.67);
+
 }
 .recom-content {
   font-weight: 100;
