@@ -1,0 +1,60 @@
+#recommendations {
+  h1 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 35px;
+  }
+}
+
+.recommendations-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.recom-card {
+  width: 400px;
+  min-height: 220px;
+  background-color: white;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.recom-content {
+  font-weight: 100;
+  text-align: justify;
+}
+.recom-author {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  .recom-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+  }
+  .recom-name {
+    h4 {
+      color: rgba(2, 70, 93, 0.6);
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    p {
+      font-weight: 100;
+      color: gray;
+      margin: 0;
+    }
+  }
+  .recom-link {
+    font-size: 25px;
+    padding: 0px 15px;
+    border-radius: 3px;
+  }
+}
+
+
