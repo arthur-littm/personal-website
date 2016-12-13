@@ -1,7 +1,7 @@
 .skills-titles {
   border-top: 0.5px solid gray;
-  padding-bottom: 10px;
-  margin: 10px;
+  padding-bottom: 0px;
+  margin: 0px;
   text-align: left;
 }
 
@@ -14,7 +14,12 @@
 
 .product-skills {
   width: 20%;
+  min-height: 150px;
   border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 10px;
   transition: all .3s;
 }
@@ -34,12 +39,17 @@
 .product-skills-image {
   border-radius: 5px;
   width: 60px;
+  transition: .5s;
 }
 .product-skills:hover {
   background: #00C3C7;
   color: white;
   transition: all .3s;
   box-shadow: 1px 1px 6px 0px #96A6C7;
+  .product-skills-image {
+    width: 70px;
+    transition: .5s;
+  }
 }
 
 .skills-list {
