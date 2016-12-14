@@ -1,7 +1,7 @@
 <div class="container">
   <div class="row">
     <div class="col-xs-12 col-sm-6">
-      <h1>Get in touch</h1>
+      <h1>Let's get in touch!</h1>
       <form method="POST" action="http://formspree.io/arthur.littmann@gmail.com">
         <div class="form-group mailer-form">
           <input type="email" name="email" placeholder="Your email" class="form-control mailer-input" required>
@@ -15,7 +15,7 @@
       <div class="getintouch-container">
         <%= image_tag "avatar.jpg", class: "avatar-large getintouch-avatar" %>
         <div class="getintouch-quote">
-        <h3><%= ["Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.", "Any fool can write code that a computer can understand. Good programmers write code that humans can understand.", "Every problem has a solution, you just have to be creative enough to find it."].sample %></h3>
+          <h3><%= ["Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.", "Any fool can write code that a computer can understand. Good programmers write code that humans can understand.", "Every problem has a solution, you just have to be creative enough to find it."].sample %></h3>
         </div>
         <div class="share-links">
           <a href="https://github.com/arthur-littm" class="share-link bg-github">
@@ -24,6 +24,9 @@
           <a href="https://uk.linkedin.com/in/arthur-littmann" class="share-link bg-linkedin">
             <i class="fa fa-linkedin"></i>
           </a>
+          <%= link_to (root_path+"#map"), class: "share-link bg-globe hidden-xs"  do %>
+            <i class="fa fa-globe" aria-hidden="true"></i>
+          <% end %>
         </div>
       </div>
     </div>
