@@ -2,7 +2,7 @@
   color: white;
   text-align: center;
   height: 90vh;
-  /* if you have a 70px navbar => height: calc(100vh - 70px); */ 
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
   background-size: cover !important;
   background-position: center;
   display: flex;
@@ -28,7 +28,7 @@
   border-bottom: 0.5px solid white;
 }
 
-.banner i {
+.banner .fa-angle-down {
   margin-top: 15vh;
   font-size: 50px;
   opacity: 0;
@@ -36,8 +36,38 @@
 }
 
 .banner:hover {
-  i {
+  .fa-angle-down {
     opacity: 0.4;
     margin-top: 20vh;
+  }
+  .facts-card {
+    visibility: visible;
+    opacity: 1;
+
+  }
+}
+
+.facts-card {
+  padding: 0px 20px;
+  border-radius: 5px;
+  height: 100px;
+  width: 200px;
+  background-color: rgba(255, 255, 255, 0.24);
+  border: 0.5px solid rgba(0, 0, 0, 0.11);
+  position: absolute;
+  top: 84vh;
+  left: 10px;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.5s, opacity 0.5s linear;
+  p {
+    font-weight: 100;
+    font-size: 14px;
+    opacity: 0.8;
+  }
+  i {
+    margin: 10px;
+    font-size: 40px;
+    opacity: 0.5;
   }
 }
