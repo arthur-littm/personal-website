@@ -47,6 +47,14 @@
       width: 100px;
     }
   }
+  .card-button {
+    position: absolute;
+    bottom: 15px;
+    right: 65px;
+    font-size: 12px;
+    font-weight: 100;
+    z-index: 4;
+  }
   .card-date {
     position: absolute;
     bottom: 5px;
