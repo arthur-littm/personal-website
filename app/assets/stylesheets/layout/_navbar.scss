@@ -1,3 +1,18 @@
+a.back-to-top {
+  display: none;
+  width: 52px;
+  height: 52px;
+  position: fixed;
+  z-index: 999;
+  left: 35px;
+  bottom: 35px;
+  background: #00C4C6 url("up-arrow.png") no-repeat center 43%;
+  border-radius: 5px;
+  color: white;
+  font-size: 45px;
+  box-shadow: 0 2px 6px 0 rgba(0,0,0,.4);
+}
+
 /* Main class */
 .navbar-wagon {
   box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
