@@ -10,6 +10,7 @@
   <meta name="description" content="I am a business oriented fullstack developer." />
   <link rel="icon" href="<%= image_path("favicon.png") %>">
   <%= stylesheet_link_tag    'application', media: 'all' %>
+  <% if params[:action] == "home" %>
   <!-- Start of Async Drift Code -->
   <script>
     !function() {
@@ -34,6 +35,7 @@
   drift.load('uiupgwbghzvh');
 </script>
 <!-- End of Async Drift Code -->
+<% end %>
 </head>
 <body style="background-color: whitesmoke;">
   <%= render 'shared/navbar' %>
