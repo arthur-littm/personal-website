@@ -18,10 +18,18 @@ a.back-to-top {
   background: white;
   transition: all 0.3s ease;
   display: flex;
-  height: 70px;
+  height: 55px;
   padding: 0px 30px;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-up {
+    top: -55px;
 }
 
 /* Optional class to fix the navbar on top */
@@ -35,7 +43,7 @@ a.back-to-top {
 
 /* Navbar logo */
 .navbar-wagon-brand img {
-  width: 50px;
+  width: 40px;
 }
 
 /* Navbar right section (with form, links, button) */

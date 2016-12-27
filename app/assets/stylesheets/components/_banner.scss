@@ -1,7 +1,7 @@
 .banner {
   color: white;
   text-align: center;
-  height: calc(100vh - 70px);
+  height: calc(100vh);
   background-size: cover !important;
   background-position: center;
   display: flex;
@@ -60,4 +60,9 @@
     border-radius: 30px;
     padding: 5px;
   }
+}
+
+.full-screen-container {
+  min-height: calc(100vh - 100px);
+  padding-top: 55px;
 }
