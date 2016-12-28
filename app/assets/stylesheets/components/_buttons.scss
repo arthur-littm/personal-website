@@ -1,0 +1,33 @@
+.project-button {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 100;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 2px;
+  text-decoration: none;
+  i {
+    font-size: 20px;
+  }
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.bg-website {
+  background: #0085B6;
+  color: white;
+  transition-duration: 0.5s;
+  &:hover {
+    background: transparent;
+    color: #0085B6;
+  }
+}
+.standard-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.standard-flex h3 {
+  margin-top: 5px;
+}
