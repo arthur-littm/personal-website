@@ -13,11 +13,11 @@
     <div class="card-title">
       <%= image_tag "logo-capvauban.png" %>
     </div>
-    <a href="https://sites.google.com/site/capvauban/" class="btn btn-primary card-button">Before</a>
+    <a href="https://sites.google.com/site/capvauban/" class="btn btn-primary card-button" target="_blank">Before</a>
     <div class="card-date">
       <p>2017</p>
     </div>
-    <a href="http://www.cap-vauban.com/" class="card-link" target="_blank"></a>
+    <%= link_to "", cap_vauban_path, class: "card-link" %>
   </div>
   <!-- LikeMinded -->
   <div class="card">
@@ -34,7 +34,7 @@
   <div class="card-date">
     <p>2016</p>
   </div>
-    <a href="http://www.like-minded.tech/" class="card-link" target="_blank"></a>
+  <%= link_to "", likeminded_path, class: "card-link" %>
 </div>
 <!-- GearUp -->
 <div class="card">
@@ -51,7 +51,7 @@
   <div class="card-date">
     <p>2016</p>
   </div>
-  <a href="http://www.gear-up.online/" class="card-link" target="_blank"></a>
+  <%= link_to "", gearup_path, class: "card-link" %>
 </div>
 </div>
 </div>
