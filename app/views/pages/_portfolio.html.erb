@@ -1,57 +1,78 @@
 <div class="container text-center" id="portfolio">
   <h1>Portfolio</h1>
   <div class="cards-container">
-    <!-- CapVauban -->
+
+    <!-- Beatrice Kosowski -->
     <div class="card">
-     <div class="card-image" style="background-image: url(<%= image_path("cap-vauban.png") %>);">
+      <div class="card-image" style="background-image: url(<%= image_path("art-website.png") %>);">
+      </div>
+      <div class="card-info">
+        <p>A simple art gallery website to display a client's paintings</p>
+        <p><strong>My role:</strong> Lead Developer (Freelance)</p>
+        <p><strong>Technologies:</strong> Ruby on Rails, HTML5, CSS3 &amp; Cloudinary</p>
+      </div>
+      <div class="card-title">
+        <%= image_tag "logo-art.png" %>
+      </div>
+      <div class="card-date">
+        <p>2016</p>
+      </div>
+      <%= link_to "", art_website_path, class: "card-link" %>
+      </div>
+
+      <!-- CapVauban -->
+      <div class="card">
+       <div class="card-image" style="background-image: url(<%= image_path("cap-vauban.png") %>);">
+       </div>
+       <div class="card-info">
+        <p>Holiday rental website for appartements in the south of France.</p>
+        <p><strong>My role:</strong> Lead Developer (Freelance)</p>
+        <p><strong>Technologies:</strong> Ruby on Rails, HTML5, CSS3, JavaScript, JQuery, Ajax, Google Maps API, Mailing, i18n &amp; Cloudinary</p>
+      </div>
+      <div class="card-title">
+        <%= image_tag "logo-capvauban.png" %>
+      </div>
+      <a href="https://sites.google.com/site/capvauban/" class="btn btn-primary card-button" target="_blank">Before</a>
+      <div class="card-date">
+        <p>2017</p>
+      </div>
+      <%= link_to "", cap_vauban_path, class: "card-link" %>
+    </div>
+
+    <!-- LikeMinded -->
+    <div class="card">
+     <div class="card-image" style="background-image: url(<%= image_path("likeminded.png") %>);">
      </div>
      <div class="card-info">
-      <p>Holiday rental website for appartements in the south of France.</p>
-      <p><strong>My role:</strong> Lead Developer (Freelance)</p>
-      <p><strong>Technologies:</strong> Ruby on Rails, HTML5, CSS3, JavaScript, JQuery, Ajax, Google Maps API, Mailing, i18n &amp; Cloudinary</p>
+      <p>Survey based platform to create personalised travel guides with recommendations from your friends and relatives.</p>
+      <p><strong>My role:</strong> Lead Developer</p>
+      <p><strong>Technologies:</strong> Ruby on Rails, HTML5, CSS3, JavaScript, JQuery, Ajax, Google Maps API, Facebook API &amp; Cloudinary</p>
     </div>
     <div class="card-title">
-      <%= image_tag "logo-capvauban.png" %>
+      <%= image_tag "logo-likeminded.png" %>
     </div>
-    <a href="https://sites.google.com/site/capvauban/" class="btn btn-primary card-button" target="_blank">Before</a>
     <div class="card-date">
-      <p>2017</p>
+      <p>2016</p>
     </div>
-    <%= link_to "", cap_vauban_path, class: "card-link" %>
+    <%= link_to "", likeminded_path, class: "card-link" %>
   </div>
-  <!-- LikeMinded -->
+
+  <!-- GearUp -->
   <div class="card">
-   <div class="card-image" style="background-image: url(<%= image_path("likeminded.png") %>);">
-   </div>
-   <div class="card-info">
-    <p>Survey based platform to create personalised travel guides with recommendations from your friends and relatives.</p>
-    <p><strong>My role:</strong> Lead Developer</p>
-    <p><strong>Technologies:</strong> Ruby on Rails, HTML5, CSS3, JavaScript, JQuery, Ajax, Google Maps API, Facebook API &amp; Cloudinary</p>
+    <div class="card-image" style="background-image: url(<%= image_path("gearup.png") %>);">
+    </div>
+    <div class="card-info">
+      <p>Sports equipment rental platform (Airbnb clone for sports equipment)</p>
+      <p><strong>My role:</strong> Lead Developer</p>
+      <p><strong>Technologies:</strong> Ruby on Rails, HTML5, CSS3, JavaScript, JQuery, Ajax, Google Maps API &amp; Cloudinary</p>
+    </div>
+    <div class="card-title-smaller">
+      <%= image_tag "logo-gearup.png" %>
+    </div>
+    <div class="card-date">
+      <p>2016</p>
+    </div>
+    <%= link_to "", gearup_path, class: "card-link" %>
   </div>
-  <div class="card-title">
-    <%= image_tag "logo-likeminded.png" %>
-  </div>
-  <div class="card-date">
-    <p>2016</p>
-  </div>
-  <%= link_to "", likeminded_path, class: "card-link" %>
-</div>
-<!-- GearUp -->
-<div class="card">
-  <div class="card-image" style="background-image: url(<%= image_path("gearup.png") %>);">
-  </div>
-  <div class="card-info">
-    <p>Sports equipment rental platform (Airbnb clone for sports equipment)</p>
-    <p><strong>My role:</strong> Lead Developer</p>
-    <p><strong>Technologies:</strong> Ruby on Rails, HTML5, CSS3, JavaScript, JQuery, Ajax, Google Maps API &amp; Cloudinary</p>
-  </div>
-  <div class="card-title-smaller">
-    <%= image_tag "logo-gearup.png" %>
-  </div>
-  <div class="card-date">
-    <p>2016</p>
-  </div>
-  <%= link_to "", gearup_path, class: "card-link" %>
-</div>
 </div>
 </div>
