@@ -8,6 +8,12 @@
   <%= csrf_meta_tags %>
   <%= action_cable_meta_tag %>
   <meta name="description" content="I am a business oriented fullstack developer." />
+
+  <meta property="og:url"                content="http://www.arthurlittmann.com/" />
+  <meta property="og:title"              content="Arthur Littmann" />
+  <meta property="og:description"        content="I am a business oriented fullstack developer." />
+  <meta property="og:image"              content="<%= image_path("facebook.png") %>"/>
+
   <link rel="icon" href="<%= image_path("favicon.png") %>">
   <%= stylesheet_link_tag    'application', media: 'all' %>
   <% if params[:action] == "home" %>
