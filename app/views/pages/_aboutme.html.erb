@@ -18,41 +18,87 @@
 
     </div>
     <div class="col-xs-12 col-sm-8 aboutme-description">
-     <div class="aboutme-titles">
-      <h3>Education</h3>
+
+      <div class="aboutme-titles">
+        <h3>Professional</h3>
+
+        <div class="product">
+         <%= image_tag "lewagon.png", class: "product-image hidden-xs" %>
+         <div class='product-body'>
+           <h3>Le Wagon <span class="hidden-xs">January 2017 - Present</span></h3>
+           <p>Teacher &amp; Web developer.</p>
+         </div>
+         <ul class="list-inline product-controls hidden-sm hidden-xs">
+          <li><a href="https://www.lewagon.com/demoday/41" target="_blank"><i class="fa fa-share"></i></a></li>
+        </ul>
+      </div>
 
       <div class="product">
-       <%= image_tag "lewagon.png", class: "product-image hidden-xs" %>
+       <%= image_tag "lekiosk.png", class: "product-image hidden-xs" %>
        <div class='product-body'>
-        <h3>Le Wagon <span class="hidden-xs">Batch #41</span></h3>
-        <p>9-week intensive coding bootcamp in London learning HTML, CSS, Bootstrap, JavaScript, jQuery, SQL, GitHub, Heroku and Ruby on Rails. Designed, Implemented and Shipped to production a clone of AirBnB and a Rails prototype of like-minded.tech, a website for travel advice among friends.
-        </p>
+        <h3>LeKiosk <span class="hidden-xs">January 2015 - June 2015</span></h3>
+        <p>Internship of 6 months as a business developer at LeKiosk, a digital press start-up. In charge of statistics, iOS In-App submissions, canvassing new magazines, customer service &amp; internal issues.</p>
       </div>
       <ul class="list-inline product-controls hidden-sm hidden-xs">
-        <li><a href="https://www.lewagon.com/demoday/41" target="_blank"><i class="fa fa-share"></i></a></li>
+        <li><a href="https://www2.lekiosk.com/uk/" target="_blank"><i class="fa fa-share"></i></a></li>
       </ul>
     </div>
-
     <div class="product">
-     <%= image_tag "essec.png", class: "product-image hidden-xs" %>
+      <%= image_tag "ducson.png", class: "product-image hidden-xs" %>
+      <div class='product-body'>
+        <h3>Duc Son Orphanage <span class="hidden-xs">August 2014</span></h3>
+        <p>One month of volunteer work in the orphanage of Duc Son, in Hué, Vietnam. Helping in the daily management of the orphanage that holds more than 180 children.</p>
+      </div>
+      <ul class="list-inline product-controls hidden-sm hidden-xs">
+        <li><a href="http://www.ducsonorphans.org/" target="_blank"><i class="fa fa-share"></i></a></li>
+      </ul>
+    </div>
+    <div class="product">
+     <%= image_tag "kiabi.png", class: "product-image hidden-xs" %>
      <div class='product-body'>
-      <h3>ESSEC Business School <span class="hidden-xs">2012 - 2016</span></h3>
-      <p>BBA program of the ESSEC business school in Cergy, France, ranked best international bachelor program in 2016 (challenges.fr). My main topics were Entrepreneurship, Management, Marketing &amp; Languages.</p>
+      <h3>KIABI <span class="hidden-xs">July 2013 – September 2013</span></h3>
+      <p>Internship of 3 months in sales management at a KIABI clothes shop in the North of Italy, where I had to assist in the management and the everyday tasks of the store like stock management and sales monitoring.</p>
     </div>
     <ul class="list-inline product-controls hidden-sm hidden-xs">
-      <li><a href="http://www.essec.edu/en/program/global-bba/global-bba-international/" target="_blank"><i class="fa fa-share"></i></a></li>
+      <li><a href="http://www.kiabi.com/" target="_blank"><i class="fa fa-share"></i></a></li>
     </ul>
   </div>
+</div>
+<div class="aboutme-titles">
+  <h3>Education</h3>
 
   <div class="product">
-   <%= image_tag "sheffield.png", class: "product-image hidden-xs" %>
+   <%= image_tag "lewagon.png", class: "product-image hidden-xs" %>
    <div class='product-body'>
-    <h3>Sheffield Hallam University <span class="hidden-xs">Fall 2015</span></h3>
-    <p>Erasmus exchange semester at the Sheffield Hallam University Business School, in England (UK).</p>
+    <h3>Le Wagon <span class="hidden-xs">Batch #41</span></h3>
+    <p>9-week intensive coding bootcamp in London learning HTML, CSS, Bootstrap, JavaScript, jQuery, SQL, GitHub, Heroku and Ruby on Rails. Designed, Implemented and Shipped to production a clone of AirBnB and a Rails prototype of like-minded.tech, a website for travel advice among friends.
+    </p>
   </div>
   <ul class="list-inline product-controls hidden-sm hidden-xs">
-    <li><a href="https://www.shu.ac.uk/" target="_blank"><i class="fa fa-share"></i></a></li>
+    <li><a href="https://www.lewagon.com/demoday/41" target="_blank"><i class="fa fa-share"></i></a></li>
   </ul>
+</div>
+
+<div class="product">
+ <%= image_tag "essec.png", class: "product-image hidden-xs" %>
+ <div class='product-body'>
+  <h3>ESSEC Business School <span class="hidden-xs">2012 - 2016</span></h3>
+  <p>BBA program of the ESSEC business school in Cergy, France, ranked best international bachelor program in 2016 (challenges.fr). My main topics were Entrepreneurship, Management, Marketing &amp; Languages.</p>
+</div>
+<ul class="list-inline product-controls hidden-sm hidden-xs">
+  <li><a href="http://www.essec.edu/en/program/global-bba/global-bba-international/" target="_blank"><i class="fa fa-share"></i></a></li>
+</ul>
+</div>
+
+<div class="product">
+ <%= image_tag "sheffield.png", class: "product-image hidden-xs" %>
+ <div class='product-body'>
+  <h3>Sheffield Hallam University <span class="hidden-xs">Fall 2015</span></h3>
+  <p>Erasmus exchange semester at the Sheffield Hallam University Business School, in England (UK).</p>
+</div>
+<ul class="list-inline product-controls hidden-sm hidden-xs">
+  <li><a href="https://www.shu.ac.uk/" target="_blank"><i class="fa fa-share"></i></a></li>
+</ul>
 </div>
 
 <div class="product">
@@ -63,52 +109,6 @@
 </div>
 <ul class="list-inline product-controls hidden-sm hidden-xs">
   <li><a href="https://www.stir.ac.uk/" target="_blank"><i class="fa fa-share"></i></a></li>
-</ul>
-</div>
-</div>
-<div class="aboutme-titles">
-  <h3>Professional</h3>
-
-  <div class="product">
-   <%= image_tag "lewagon.png", class: "product-image hidden-xs" %>
-   <div class='product-body'>
-    <h3>Le Wagon <span class="hidden-xs">January 2017 - February 2017</span></h3>
-    <p>Teaching assistant at the London batch #54.
-    </p>
-  </div>
-  <ul class="list-inline product-controls hidden-sm hidden-xs">
-    <li><a href="https://www.lewagon.com/demoday/41" target="_blank"><i class="fa fa-share"></i></a></li>
-  </ul>
-</div>
-
-<div class="product">
- <%= image_tag "lekiosk.png", class: "product-image hidden-xs" %>
- <div class='product-body'>
-  <h3>LeKiosk <span class="hidden-xs">January 2015 - June 2015</span></h3>
-  <p>Internship of 6 months as a business developer at LeKiosk, a digital press start-up. In charge of statistics, iOS In-App submissions, canvassing new magazines, customer service &amp; internal issues.</p>
-</div>
-<ul class="list-inline product-controls hidden-sm hidden-xs">
-  <li><a href="https://www2.lekiosk.com/uk/" target="_blank"><i class="fa fa-share"></i></a></li>
-</ul>
-</div>
-<div class="product">
-  <%= image_tag "ducson.png", class: "product-image hidden-xs" %>
-  <div class='product-body'>
-    <h3>Duc Son Orphanage <span class="hidden-xs">August 2014</span></h3>
-    <p>One month of volunteer work in the orphanage of Duc Son, in Hué, Vietnam. Helping in the daily management of the orphanage that holds more than 180 children.</p>
-  </div>
-  <ul class="list-inline product-controls hidden-sm hidden-xs">
-    <li><a href="http://www.ducsonorphans.org/" target="_blank"><i class="fa fa-share"></i></a></li>
-  </ul>
-</div>
-<div class="product">
- <%= image_tag "kiabi.png", class: "product-image hidden-xs" %>
- <div class='product-body'>
-  <h3>KIABI <span class="hidden-xs">July 2013 – September 2013</span></h3>
-  <p>Internship of 3 months in sales management at a KIABI clothes shop in the North of Italy, where I had to assist in the management and the everyday tasks of the store like stock management and sales monitoring.</p>
-</div>
-<ul class="list-inline product-controls hidden-sm hidden-xs">
-  <li><a href="http://www.kiabi.com/" target="_blank"><i class="fa fa-share"></i></a></li>
 </ul>
 </div>
 </div>
