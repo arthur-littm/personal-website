@@ -1,0 +1,17 @@
+#videos {
+  h1 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 35px;
+  }
+}
+
+.videos-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.video-card {
+  margin: 10px;
+}
