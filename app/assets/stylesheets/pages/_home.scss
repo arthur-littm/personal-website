@@ -2,3 +2,20 @@
  * CSS code specific to home page
  * (margin/padding adjustments)
  * ------------------------------------- */
+.section-header-white {
+  h1 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-family: 'Kaushan Script';
+  }
+}
+
+.section-header-black {
+  h1 {
+    color: black;
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-family: 'Kaushan Script';
+  }
+}
