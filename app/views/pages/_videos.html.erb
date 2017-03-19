@@ -1,16 +1,10 @@
 <div class="container-fluid text-center section-header-white" id="videos" style="background-color: #00C3C7">
   <h1>Latest videos</h1>
   <div class="videos-container">
+    <% @latest_videos.each do |id| %>
     <div class="video-card">
-      <iframe width="340" height="210" src="https://www.youtube.com/embed/o5fj9CRNuGA" frameborder="0" allowfullscreen></iframe>
+      <iframe width="340" height="210" src="https://www.youtube.com/embed/<%= id %>" frameborder="0" allowfullscreen></iframe>
     </div>
-
-    <div class="video-card">
-      <iframe width="340" height="210" src="https://www.youtube.com/embed/fNxWjvGIrMw" frameborder="0" allowfullscreen></iframe>
-    </div>
-
-    <div class="video-card">
-      <iframe width="340" height="210" src="https://www.youtube.com/embed/4Iw8sOMBEjA" frameborder="0" allowfullscreen></iframe>
-    </div>
+    <% end %>
   </div>
 </div>
