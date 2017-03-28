@@ -5,7 +5,6 @@
 		<p>I am a <strong>business</strong> oriented fullstack <strong>web developer</strong>.</p>
 		<a href="#portfolio"><i class="fa fa-angle-down hidden-xs" aria-hidden="true"></i></a>
   </div>
-  <a href="#" class="back-to-top hidden-xs" style="background: #00C4C6 url(<%= image_path "up-arrow.png" %>) no-repeat center 43%;"></a>
 </div>
 <%= render "portfolio" %>
 <%= render "aboutme" %>
@@ -15,21 +14,4 @@
 <%= render "recommendations" %>
 
 <% content_for(:after_js) do %>
-<script>
-  var amountScrolled = 100;
-
-  $(window).scroll(function() {
-    if ( $(window).scrollTop() > amountScrolled ) {
-      $('a.back-to-top').fadeIn('slow');
-    } else {
-      $('a.back-to-top').fadeOut('slow');
-    }
-  });
-  $('a.back-to-top').click(function() {
-    $('html, body').animate({
-      scrollTop: 0
-    }, 700);
-    return false;
-  });
-</script>
 <% end %>

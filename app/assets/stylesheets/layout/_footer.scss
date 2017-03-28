@@ -1,14 +1,14 @@
 .footer-container {
-  height: 105px;
   background-color: #2F323A;
   position: relative;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   color: #E8EEF2;
-  padding: 20px 30px 0px 0px;
-  align-items: baseline;
+  align-items: center;
   list-style-type: none;
+  padding: 30px 0;
   i {
     font-size: 30px;
     margin: 10px 20px;
@@ -38,7 +38,6 @@
     color: #1085BA;
     transition-duration: 1s;
   }
-
 
   li {
     margin: 10px auto;
